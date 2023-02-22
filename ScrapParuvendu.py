@@ -65,6 +65,6 @@ class ParuVendu():
         
         
         
-page = 50   #nombre de page à scraper
+nb_pages = 50   #nombre de page à scraper
 scraper = ParuVendu()
-scraper.scrape(page)   
+scraper.scrape(nb_pages)   
